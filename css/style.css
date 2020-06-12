@@ -1,0 +1,63 @@
+@media (min-width: 768.50px){
+
+}
+
+@media (max-width: 768.50px){
+    body{
+        background-color: gainsboro;
+    }
+    
+    header{
+        background-color: indianred;
+        width: 90%;
+        margin: auto;
+        display: flex;
+    }
+
+    main{
+         border: 2px solid gray; 
+    }
+
+    article{
+        background-color: greenyellow;
+        border:0.5px solid red;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        height: 125px;
+
+    }
+
+    article:nth-child(1){
+        height: 150px;
+    }
+
+    .EthroughH{
+        border: 2px solid black;
+        height: 500px;
+        background-color: hotpink;
+        width: 50%;
+        flex-wrap: wrap;
+        /* flex-direction: row; */
+        justify-content: flex-start;
+        
+
+    }
+
+    p{
+        border: 2px solid sandybrown;
+        width: 40%;
+        background-color: green;
+        /* height: 250px; */
+        width: 40%; 
+        display: flex;
+        /* flex-direction: row; */
+    }
+}
+
+@media (max-device-width: 480px) and (orientation:landscape) {
+
+}
+
+
+
