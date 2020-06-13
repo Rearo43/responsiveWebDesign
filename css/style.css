@@ -1,15 +1,16 @@
 @media (min-width: 768.50px){
     body{
         background-color: gainsboro;
-        /* display: flex; */
+        text-align: center;
     }
     
     header{
-        background-color: indianred;
         width: 90%;
         margin: auto;
         display: flex;
+        height: 100px;
     }
+
     main{
         width: 90%;
         margin: auto;
@@ -18,110 +19,87 @@
     }
 
     div{
-        width: 70%;
-        margin: auto;
+        width: 71.5%;
+        /* margin: auto; */
         display: flex;
         margin-top: 0;
-        /* float: right; */
-
+        margin-left: 23.35%;
+        background-color: sienna;
+        height: 250px;
     }
-    article{
-        background-color: greenyellow;
-        border:0.5px solid red;
-        flex-grow: 2;
-        /* width: 20%; */
-        /* margin: auto; */
-        /* display: flex; */
-        /* flex-grow: 1; */
-        /* flex-wrap: wrap-reverse; */
-        height: 200px;
-        /* flex-flow: row; */
-        /* flex-direction: row; */
 
+    article{
+        flex-grow: 2;
+        height: 200px;
     }
 
     article:nth-child(1){
         height: 600px;
-        /* width: 20.83%; */
         flex-grow: 1;
     }
+
     p{
-        background-color: royalblue;
-        border: 0.5px solid black;
+        margin-top: 0px;
         height: 250px;
         flex-grow: 1;
     }
+
     footer{
-        width: 70%;
+        width: 71.5%;
+        margin-left: 23.35%;
+
+    }
+    footer > ul{
+        margin-top: 0px;
         height: 150px;
-        margin-left: 23.5%;
-        background-color: sandybrown;
     }
 }
 
 @media (max-width: 768.50px){
     body{
         background-color: gainsboro;
+        text-align: center;
     }
     
     header{
-        background-color: indianred;
         width: 90%;
         margin: auto;
         display: flex;
     }
 
-    main{
-         /* border: 2px solid gray;  */
-    }
-
     article{
-        background-color: greenyellow;
-        border:0.5px solid red;
         width: 90%;
         margin: auto;
         display: flex;
         height: 125px;
-
     }
 
     article:nth-child(1){
         height: 150px;
     }
 
-    .EthroughH{
-        /* border: 2px solid black; */
-        /* height: 500px; */
-        /* background-color: hotpink; */
+    div{
         width: 90%;
         margin: auto;
         margin-bottom: 0;
         display: flex;
         flex-flow: row wrap;
-        /* justify-content: space-evenly; */
-        
-
     }
 
     p{
-        border: 0.5px solid sandybrown;
-        background-color: green;
         height: 250px;
-        width: 49%; 
+        width: 50%; 
         margin-top: 0;
         margin-bottom: 0;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* margin: auto; */
     }
 
     footer{
-        height: 80px;
         width: 90%;
         margin: auto;
         margin-top: 0;
-        background-color: purple;
-
+    }
+    footer > ul{
+        height: 80px;
     }
 }
 
