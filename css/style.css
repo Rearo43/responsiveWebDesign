@@ -103,13 +103,5 @@
     }
 }
 
-@media (max-device-width: 480px) and (orientation:landscape) {
-    body{
-        background-color: rgb(45, 151, 35);
-        text-align: center;
-    }
-
-}
-
 
 
